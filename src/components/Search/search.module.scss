@@ -1,0 +1,30 @@
+.root{
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.14s ease-in-out;
+  position: relative;
+  left: 180px;
+
+  &:focus{
+    border: 1px solid black ;
+    width: 370px;
+  }
+}
+.closeIcon{
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: relative;
+  left: 145px;
+  top: 5px;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.8;
+    width: 19px;
+    height: 19px;
+  }
+}
